@@ -1,0 +1,21 @@
+@import "compass";
+@import "defaults";
+@import "susy";
+
+//setup vertical rhythm
+@include establish-baseline;
+
+.container{
+  @include container;
+
+  .left {
+    @include span-columns(3,12);
+    background-color: red;
+  }
+
+  .right {
+    @include span-columns(9 omega, 12);
+    background-color: blue;
+  }
+}
+
