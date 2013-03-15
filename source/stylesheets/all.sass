@@ -5,6 +5,10 @@
 //setup vertical rhythm
 // @include establish-baseline
 
+$distiller-blue: rgb(74,166,255)
+$distiller-green: rgb(101,167,0)
+$distiller-red: rgb(237,64,64)
+
 .hero-menu
   background: image-url("bg.jpg") 50% 0 no-repeat
   overflow: auto
@@ -24,13 +28,13 @@
 
     margin-top: 140px
 
-    .labs
+    .hero-labs
       @include span-columns(4,12)
 
-    .startups
+    .hero-startups
       @include span-columns(4, 12)
 
-    .network
+    .hero-network
       @include span-columns(4 omega,12)
 
 .hero-btn
@@ -38,6 +42,10 @@
   text-align: center
   display: block
   padding: 15px 0px
+  cursor: pointer
+
+.hero-btn:hover
+  background-color: white
 
 h3.hero-title
   font-family: 'Open Sans', sans-serif
@@ -51,11 +59,14 @@ h3.hero-title
   margin-left: -42px
 
 h3.hero-title-labs
+  color: $distiller-blue
 
 h3.hero-title-startups
+  color: $distiller-green
   background-position: 0 -26px
 
 h3.hero-title-network
+  color: $distiller-red
   background-position: 0 -52px
 
 
@@ -78,7 +89,7 @@ h5.hero-description
   .container
     @include container
     color: white
-    margin-top: 7px
+    margin-top: 9px
 
     .logo
       h1
@@ -90,6 +101,36 @@ h5.hero-description
 .main-content
   margin-top: 30px
 
+  .labs
+    .section-title
+      color: $distiller-blue
+
+.home-section
+  width: 660px
+  margin-left: auto
+  margin-right: auto
+
+.section-title
+  float: left
+
+.section-logo
+  background: image-url('spr-section-logos.png') 0 0 no-repeat
+  width: 30px
+  height: 30px
+  float: right
+
+.dividing-line
+  width: 100%
+  background-color: rgb(240,240,240)
+  height: 1px
+  margin-top: 13px
+  margin-bottom: 60px
+  clear: both
+
+
+
+
+//font definitions
 
 h1
   font-family: 'Open Sans', sans-serif
@@ -98,16 +139,29 @@ h1
   font-size: 30px
   margin: 0px
 
+h2
+  font-family: 'Open Sans', sans-serif
+  font-weight: 100
+  line-height: 20px
+  font-size: 30px
+  margin: 0px
+
 p
   font-family: 'Open Sans', sans-serif
   font-weight: 100
+  font-size: 15px
+  color: rgb(130,130,130)
+  line-height: 18px
+  margin-top: 10px
+  margin-bottom: 0px
+  padding: 0px 15px
 
 a
   color: rgb(74,166,255)
   text-decoration: none
   
 a:hover
-  color: rgb(0,108,214)
+  color: rgb(153,205,255)
 
 
 
