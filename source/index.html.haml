@@ -1,7 +1,33 @@
 ---
 title: Welcome to Middleman
 ---
-.left
-  %p left
-.right
-  %p right
+
+.hero-menu
+
+  .value-prop.container
+    %h1 The Distiller helps tech startups achieve growth through collaboration, sharing, and support from the community.
+    %h1
+      = link_to 'Get involved.', '/contact'
+
+  .hero-btns.container
+    .labs.hero-btn.round-corner.light-shadow
+      %h3.hero-title.hero-title-labs
+        Labs
+      %h5.hero-description
+        Shared creative spaces for startups in both Auckland and Dunedin.
+
+    .startups.hero-btn.round-corner.light-shadow
+      %h3.hero-title.hero-title-startups
+        Startups
+      %h5.hero-description
+        Our labs have 21 current startups in both cities. Find out more about them here.
+
+    .network.hero-btn.round-corner.light-shadow
+      %h3.hero-title.hero-title-network
+        Network
+      %h5.hero-description
+        Find out about our broad network of entrepreneurs, backers and more.
+
+.main-content
+  .container
+    %p Hello this is the distiller

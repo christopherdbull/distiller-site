@@ -1,0 +1,121 @@
+@import "compass"
+@import "defaults"
+@import "susy"
+
+//setup vertical rhythm
+// @include establish-baseline
+
+.hero-menu
+  background: image-url("bg.jpg") 50% 0 no-repeat
+  overflow: auto
+
+  .value-prop
+    @include container
+
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4)
+    margin-top: 140px
+
+    h1
+      width: 580px
+      color: white
+
+  .hero-btns
+    @include container  
+
+    margin-top: 140px
+
+    .labs
+      @include span-columns(4,12)
+
+    .startups
+      @include span-columns(4, 12)
+
+    .network
+      @include span-columns(4 omega,12)
+
+.hero-btn
+  background-color: rgba(255,255,255,0.9)
+  text-align: center
+  display: block
+  padding: 15px 0px
+
+h3.hero-title
+  font-family: 'Open Sans', sans-serif
+  font-weight: 100
+  font-size: 21px
+  color: rgb(51,51,51)
+  background: image-url("spr-headers.png") 0 0 no-repeat
+  line-height: 26px
+  display: inline
+  padding-left: 42px
+  margin-left: -42px
+
+h3.hero-title-labs
+
+h3.hero-title-startups
+  background-position: 0 -26px
+
+h3.hero-title-network
+  background-position: 0 -52px
+
+
+h5.hero-description
+  font-family: 'Open Sans', sans-serif
+  font-weight: 100
+  font-size: 14px
+  color: rgb(102,102,102)
+  line-height: 18px
+  margin-top: 10px
+  margin-bottom: 0px
+  padding: 0px 15px
+
+
+.navbar
+  height: 70px
+  background: image-url("bg-navbar.jpg") 50% 0 no-repeat
+  overflow: auto
+  
+  .container
+    @include container
+    color: white
+    margin-top: 7px
+
+    .logo
+      h1
+
+    .menu
+      @include span-columns(4 omega,12)
+
+
+.main-content
+  margin-top: 30px
+
+
+h1
+  font-family: 'Open Sans', sans-serif
+  font-weight: 100
+  line-height: 50px
+  font-size: 30px
+  margin: 0px
+
+p
+  font-family: 'Open Sans', sans-serif
+  font-weight: 100
+
+a
+  color: rgb(74,166,255)
+  text-decoration: none
+  
+a:hover
+  color: rgb(0,108,214)
+
+
+
+.light-shadow
+  @include single-box-shadow(rgba(0,0,0,0.2), 0px, 2px, 3px)
+
+.heavy-shadow
+  @include single-box-shadow(rgba(0,0,0,0.3), 0px, 4px, 4px)
+
+.round-corner
+  @include border-radius(4px, 4px)
