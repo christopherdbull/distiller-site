@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/stylesheets/_startups.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/stylesheets/all.sass" afterPath="$PROJECT_DIR$/source/stylesheets/all.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/layouts/startup_layout.html.haml" afterPath="$PROJECT_DIR$/source/layouts/startup_layout.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/stylesheets/_startups.sass" afterPath="$PROJECT_DIR$/source/stylesheets/_startups.sass" />
     </list>
     <ignored path="distiller.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363388373061" ignored="false" />
     <file path="/all.sass" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363402629751" ignored="false" />
     <file path="/index.html.haml" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363400824430" ignored="false" />
-    <file path="/_startups.sass" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363404112109" ignored="false" />
+    <file path="/_startups.sass" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363404250878" ignored="false" />
     <file path="/startup_layout.html.haml" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363403790853" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +27,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="startup_layout.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="startup_layout.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/layouts/startup_layout.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="11" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.5869565">
+            <state line="36" column="11" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-22.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_startups.sass" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_startups.sass" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/stylesheets/_startups.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="22" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+            <state line="33" column="22" selection-start="680" selection-end="680" vertical-scroll-proportion="0.51724136">
               <folding />
             </state>
           </provider>
@@ -518,16 +515,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/stylesheets/_startups.sass">
+    <entry file="file://$PROJECT_DIR$/source/layouts/startup_layout.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="22" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+        <state line="36" column="11" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-22.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/layouts/startup_layout.html.haml">
+    <entry file="file://$PROJECT_DIR$/source/stylesheets/_startups.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="11" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.5869565">
+        <state line="33" column="22" selection-start="680" selection-end="680" vertical-scroll-proportion="0.51724136">
           <folding />
         </state>
       </provider>
