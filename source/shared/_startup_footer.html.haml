@@ -1,1 +1,10 @@
-%h1 startup footer
+%h2 All Startups
+.list-container
+  #current-startups
+    %h3 Current
+    - startup_list.each do |s|
+      %p= link_to s[:title], s[:uri]
+  #alumni-startups
+    %h3 Alumni
+    - old_startups.each do |s|
+      %p= s

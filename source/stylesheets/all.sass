@@ -181,6 +181,10 @@ header
     background: image-url('sponsors.jpg') 50% 0 no-repeat
     width: 840px
     height: 354px
+.alumni-container
+  @include clearfix
+  p
+    width: 220px
 #startups
   width: 680px
   ul
@@ -205,3 +209,13 @@ header
 
 
 
+.list-container
+  @include clearfix
+
+  #alumni-startups
+    width: 60%
+    float: left
+
+  #current-startups
+    width: 30%
+    float: left
