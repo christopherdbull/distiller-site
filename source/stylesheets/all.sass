@@ -1,175 +1,140 @@
 @import "compass"
-@import "defaults"
-@import "susy"
-
-//setup vertical rhythm
-// @include establish-baseline
+@import reset.css
 
 $distiller-blue: rgb(74,166,255)
 $distiller-green: rgb(101,167,0)
 $distiller-red: rgb(237,64,64)
-
-.hero-menu
-  background: image-url("bg.jpg") 50% 0 no-repeat
-  overflow: auto
-
-  .value-prop
-    @include container
-
-    text-shadow: 0 1px 4px rgba(0,0,0,0.4)
-    margin-top: 140px
-
-    h1
-      width: 580px
-      color: white
-
-  .hero-btns
-    @include container  
-
-    margin-top: 140px
-
-    .hero-labs
-      @include span-columns(4,12)
-
-    .hero-startups
-      @include span-columns(4, 12)
-
-    .hero-network
-      @include span-columns(4 omega,12)
-
-.hero-btn
-  background-color: rgba(255,255,255,0.9)
-  text-align: center
-  display: block
-  padding: 15px 0px
-  cursor: pointer
-
-.hero-btn:hover
-  background-color: white
-
-h3.hero-title
+$font-color: rgb(130,130,130)
+$link-hover-color: rgb(153, 205, 255)
+html
   font-family: 'Open Sans', sans-serif
-  font-weight: 100
-  font-size: 21px
-  color: rgb(51,51,51)
-  background: image-url("spr-headers.png") 0 0 no-repeat
-  line-height: 26px
-  display: inline
-  padding-left: 42px
-  margin-left: -42px
-
-h3.hero-title-labs
-  color: $distiller-blue
-
-h3.hero-title-startups
-  color: $distiller-green
-  background-position: 0 -26px
-
-h3.hero-title-network
-  color: $distiller-red
-  background-position: 0 -52px
-
-
-h5.hero-description
-  font-family: 'Open Sans', sans-serif
-  font-weight: 100
-  font-size: 14px
-  color: rgb(102,102,102)
+  color: $font-color
+  font-size: 15px
   line-height: 18px
-  margin-top: 10px
-  margin-bottom: 0px
-  padding: 0px 15px
-
-
-.navbar
-  height: 70px
-  background: image-url("bg-navbar.jpg") 50% 0 no-repeat
-  overflow: auto
-  
-  .container
-    @include container
-    color: white
-    margin-top: 9px
-
-    .logo
-      h1
-
-    .menu
-      @include span-columns(4 omega,12)
-
-
-.main-content
-  margin-top: 30px
-
-  .labs
-    .section-title
-      color: $distiller-blue
-
-.home-section
-  width: 660px
-  margin-left: auto
-  margin-right: auto
-
-.section-title
-  float: left
-
-.section-logo
-  background: image-url('spr-section-logos.png') 0 0 no-repeat
-  width: 30px
-  height: 30px
-  float: right
-
-.dividing-line
-  width: 100%
-  background-color: rgb(240,240,240)
-  height: 1px
-  margin-top: 13px
-  margin-bottom: 60px
+  background: image-url('bg.jpg') 50% 0 no-repeat
+  font-weight: 100
+a
+  text-decoration: none
+  color: $distiller-blue
+a:hover
+  color: $link-hover-color
+.clear
   clear: both
-
-
-
-
-//font definitions
-
+  height: 1px
+p
+  line-height: 20px
+  margin: 10px 0 0 0
 h1
-  font-family: 'Open Sans', sans-serif
   font-weight: 100
   line-height: 50px
   font-size: 30px
   margin: 0px
-
 h2
-  font-family: 'Open Sans', sans-serif
+  line-height: 50px
+  margin: 56px 0
+  border-bottom: 1px solid #f0f0f0
   font-weight: 100
-  line-height: 20px
+  line-height: 50px
   font-size: 30px
-  margin: 0px
-
-p
-  font-family: 'Open Sans', sans-serif
-  font-weight: 100
-  font-size: 15px
-  color: rgb(130,130,130)
-  line-height: 18px
-  margin-top: 10px
-  margin-bottom: 0px
-  padding: 0px 15px
-
-a
-  color: rgb(74,166,255)
-  text-decoration: none
-  
-a:hover
-  color: rgb(153,205,255)
-
-
-
-.light-shadow
-  @include single-box-shadow(rgba(0,0,0,0.2), 0px, 2px, 3px)
-
-.heavy-shadow
-  @include single-box-shadow(rgba(0,0,0,0.3), 0px, 4px, 4px)
-
-.round-corner
-  @include border-radius(4px, 4px)
+h3
+  margin: 38px 0
+  color: $distiller-blue
+  font-size: 20px
+.container
+  width: 990px
+  margin: 0 auto
+  position: relative
+.navbar
+  height: 70px
+  background: rgba(0,0,0,0.4)
+  line-height: 70px
+  h1
+    line-height: 70px
+    margin: 0
+    color: white
+    float: left
+  .menu
+    float: right
+    a
+      padding: 0 12px
+      color: white
+.hero-menu
+  height: 570px
+  .value-prop
+    padding: 113px 0 0
+    height: 316px
+  h1
+    color: white
+    text-shadow: 2px 2px 3px #333
+    width:  540px
+  a.hero-btn
+    background-color: rgba(255,255,255,0.9)
+    text-align: center
+    cursor: pointer
+    width: 262px
+    height: 58px
+    padding: 24px
+    border-radius:  4px
+    float: left
+    margin:  0 28px 0 0
+    color: $font-color
+    @include single-box-shadow(rgba(0,0,0,0.2), 0px, 2px, 3px)
+    h3
+      font-size: 21px
+      color: rgb(51,51,51)
+      background: image-url("spr-headers.png") 0 0 no-repeat
+      line-height: 26px
+      display: inline
+      padding-left: 42px
+      margin-left: -42px
+    h3.hero-title-labs
+      color: $distiller-blue
+    h3.hero-title-startups
+      color: $distiller-green
+      background-position: 0 -26px
+    h3.hero-title-network
+      color: $distiller-red
+      background-position: 0 -52px
+    h5
+      font-size: 14px
+      color: rgb(102,102,102)
+      line-height: 18px
+      margin: 10px 0 0
+      padding: 0px 15px
+  a.hero-btn:hover
+    background-color: white
+  h3
+    margin: 0
+  a.hero-network
+    margin:  0
+.main-content
+  background: white
+  padding-bottom: 120px
+  .container
+    width:  660px
+    padding: 0 40px
+  h2
+    margin: 0 -40px
+.home-section
+  h2
+    background: image-url('spr-section-logos.png') 100% 0 no-repeat
+.labs
+  h2
+    margin-top: 56px
+    color: $distiller-blue
+  h3
+    color: $distiller-blue
+.startups
+  h2
+    margin-top: 240px
+    color:  $distiller-green
+    background-position: 100% -50px
+  h3
+    color: $distiller-green
+.network
+  h2
+    margin-top: 240px
+    color:  $distiller-red
+    background-position: 100% -100px
+  h3
+    color:  $distiller-red
