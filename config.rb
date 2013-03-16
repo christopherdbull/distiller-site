@@ -46,6 +46,32 @@
 #     "Helping"
 #   end
 # end
+ready do
+  hits = []
+
+  sitemap.resources.select { |s| s.path.include?("startups") && !s.path.include?("images") }.each do |p|
+    hits.push p
+  end
+
+  Middleman::Application.set(:startups, hits)
+end
+
+
+helpers do
+  def startup_list
+    hits = Middleman::Application.defaults[:startups]
+    attrs = []
+    hits.each do |h|
+      ret_val = {}
+      ret_val[:uri] = h.path
+      ret_val[:title] = h.metadata[:page]["title"]
+      ret_val[:logo] = h.path[0..-6] + "/logo.png"
+      ret_val[:logo_grey] = h.path[0..-6] + "/logo_grey.png"
+      attrs.push ret_val
+    end
+    return attrs
+  end
+end
 
 set :css_dir, 'stylesheets'
 

@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/sponsors.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/sponsors/NZTE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/sponsors/centre-for-innovation.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/sponsors/dcc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/sponsors/otago-community-trust.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/sponsors/otago-polytechnic.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/sponsors/the-tindall-foundation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/sponsors/univeristy-of-otago-business-school.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/sponsors/university-of-otago.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/shared/_footer.html.haml" afterPath="$PROJECT_DIR$/source/shared/_footer.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/javascripts/all.js" afterPath="$PROJECT_DIR$/source/javascripts/all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/stylesheets/all.sass" afterPath="$PROJECT_DIR$/source/stylesheets/all.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.html.haml" afterPath="$PROJECT_DIR$/source/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/startups/red_gorilla.md" afterPath="$PROJECT_DIR$/source/startups/red_gorilla.md" />
     </list>
     <ignored path="distiller.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +52,7 @@
       <file leaf-file-name="all.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/stylesheets/all.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="13" selection-start="2315" selection-end="2315" vertical-scroll-proportion="0.0">
+            <state line="112" column="13" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,19 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="all.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/javascripts/all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="8" selection-start="827" selection-end="827" vertical-scroll-proportion="0.5015674">
+            <state line="32" column="8" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_footer.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/shared/_footer.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="52" selection-start="99" selection-end="99" vertical-scroll-proportion="-1.875">
+            <state line="4" column="8" selection-start="103" selection-end="103" vertical-scroll-proportion="0.06430868">
               <folding />
             </state>
           </provider>
@@ -108,10 +116,10 @@
         <option value="$PROJECT_DIR$/source/stylesheets/reset.css" />
         <option value="$PROJECT_DIR$/source/layouts/startup_layout.html.haml" />
         <option value="$PROJECT_DIR$/source/stylesheets/_startups.sass" />
-        <option value="$PROJECT_DIR$/source/shared/_footer.html.haml" />
         <option value="$PROJECT_DIR$/source/index.html.haml" />
         <option value="$PROJECT_DIR$/source/stylesheets/all.sass" />
         <option value="$PROJECT_DIR$/source/javascripts/all.js" />
+        <option value="$PROJECT_DIR$/source/shared/_footer.html.haml" />
       </list>
     </option>
   </component>
@@ -482,13 +490,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/shared/_footer.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="52" selection-start="99" selection-end="99" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="6" selection-start="311" selection-end="918" vertical-scroll-proportion="-6.875">
@@ -512,14 +513,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/stylesheets/all.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="13" selection-start="2315" selection-end="2315" vertical-scroll-proportion="0.0">
+        <state line="112" column="13" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/javascripts/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="827" selection-end="827" vertical-scroll-proportion="0.5015674">
+        <state line="32" column="8" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/shared/_footer.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="103" selection-end="103" vertical-scroll-proportion="0.06430868">
           <folding />
         </state>
       </provider>
