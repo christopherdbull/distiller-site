@@ -85,18 +85,17 @@ h5.hero-description
   height: 70px
   background: image-url("bg-navbar.jpg") 50% 0 no-repeat
   overflow: auto
-  
+
   .container
     @include container
     color: white
     margin-top: 9px
 
     .logo
-      h1
+      @include span-columns(3, 12)
 
     .menu
       @include span-columns(4 omega,12)
-
 
 .main-content
   margin-top: 30px
@@ -159,7 +158,7 @@ p
 a
   color: rgb(74,166,255)
   text-decoration: none
-  
+
 a:hover
   color: rgb(153,205,255)
 
