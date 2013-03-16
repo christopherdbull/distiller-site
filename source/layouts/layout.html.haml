@@ -13,5 +13,7 @@
   %body{:class => page_classes}
     %header
       = partial 'shared/nav'
-    .container
-      = yield
+    = yield
+
+  %footer
+    = partial 'shared/footer'
