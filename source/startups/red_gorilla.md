@@ -7,7 +7,7 @@ founders:
   - Cecilia Wong
 contact_url: mailto:accounts@redgorilla.co.nz
 home_url: http://redgorilla.co.nz
---
+---
 Cool. Creative. Innovative. Passionate. Experienced. Just a few of the many adjectives that are used to describe the Red Gorilla team.
 
 What we do
