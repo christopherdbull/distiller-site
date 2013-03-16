@@ -5,7 +5,7 @@
     / Always force latest IE rendering engine or request Chrome Frame
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
     / Use title if it's in the page YAML frontmatter
-    %title= data.page.title || "The Distiller"
+    %title= data.page.title + " - The Distiller"
     = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,100italic,300italic,400italic,700italic|Open+Sans:300italic,400italic,700italic,400,300,700'
     = stylesheet_link_tag "normalize", "all"
     = javascript_include_tag  "all"
