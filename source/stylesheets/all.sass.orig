@@ -208,6 +208,7 @@ header
     img
       margin:  auto auto
 
+<<<<<<< HEAD
 ul.bullets
   margin-left: 10px
   list-style-type: disc
@@ -215,9 +216,11 @@ ul.bullets
   padding-bottom: 10px
   li
     margin-top: 8px
+=======
 
 #all-startups
   margin-bottom: 0px
+
 
 .list-container
   @include clearfix
@@ -233,4 +236,4 @@ ul.bullets
   #current-startups
     width: 30%
     float: left
-
+>>>>>>> 9bd57db78e15d813bd8cdea32c105e0b8f4a75a4
