@@ -9,24 +9,29 @@
     = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,100italic,300italic,400italic,700italic|Open+Sans:300italic,400italic,700italic,400,300,700'
     = stylesheet_link_tag "normalize", "all"
     = javascript_include_tag  "all"
-
   %body{:class => page_classes}
     %header
       = partial 'shared/nav'
-    .startup-header
-      %h2= current_page.data.title
-      %table
-        %tr
-          %td Date Started
-          %td= current_page.data.date_started
-      = link_to "The home page", current_page.data.home_url
-      = link_to "Contact Us", current_page.data.contact_url
-      %ul
-        - current_page.data.founders.each do |f|
-          %li= f
-      = image_tag "#{current_page.path[0..-6]}/logo.png"
-      = image_tag "#{current_page.path[0..-6]}/banner.jpg"
-    .container
-      = yield
+    .container.startup
+      .header
+        %h2= current_page.data.title
+        = link_to "Contact Us", current_page.data.contact_url
+
+      .databox
+        .databox-top
+          = image_tag "#{current_page.path[0..-6]}/logo.png"
+          %table
+            %tr
+              %td.left Date Started
+              %td.right= current_page.data.date_started
+          = link_to "The home page", current_page.data.home_url
+        .databox-bottom
+          %ul
+            - current_page.data.founders.each do |f|
+              %li= f
+      .headimg
+        = image_tag "#{current_page.path[0..-6]}/banner.jpg"
+      .content
+        = yield
     %footer
       = partial 'shared/startup_footer'

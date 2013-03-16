@@ -2,88 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/6b/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/avid_online/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/dunedin/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/eyedentify/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/highly_flammable/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/jumponboard/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/keen/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/life_after_pain/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/pitch_perfect_videos/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/pocketsmith/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/red_gorilla/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/smartebusiness/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/televator/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/top_trainer/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/where_wolf/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/startups/6b.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/startups/avid_online.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/6b/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/eyedentify/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/highly_flammable/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/jumponboard/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/keen/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/life_after_pain/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/pocketsmith/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/popin/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/red_gorilla/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/smartebusiness/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/top_trainer/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/avid_online/banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/dunedin/banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/pitch_perfect_videos/banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/televator/banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/where_wolf/banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/startups/highly_flammable.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/6b/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/avid_online/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/dunedin/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/eyedentify/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/highly_flammable/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/jumponboard/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/keen/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/life_after_pain/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/pitch_perfect_videos/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/pocketsmith/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/popin/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/red_gorilla/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/smartebusiness/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/televator/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/top_trainer/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/where_wolf/logo-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/6b/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/avid_online/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/dunedin/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/eyedentify/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/highly_flammable/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/jumponboard/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/keen/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/life_after_pain/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/pitch_perfect_videos/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/pocketsmith/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/popin/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/red_gorilla/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/smartebusiness/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/televator/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/top_trainer/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/startups/where_wolf/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/startups/popin.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/startups/top_trainer.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/shared/_startup_footer.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/distiller_extension.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/layouts/startup_layout.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/shared/_nav.html.haml" afterPath="$PROJECT_DIR$/source/shared/_nav.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/stylesheets/_startups.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/stylesheets/all.sass" afterPath="$PROJECT_DIR$/source/stylesheets/all.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.html.haml" afterPath="$PROJECT_DIR$/source/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/layouts/layout.html.haml" afterPath="$PROJECT_DIR$/source/layouts/layout.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/layouts/startup_layout.html.haml" afterPath="$PROJECT_DIR$/source/layouts/startup_layout.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="distiller.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363388373061" ignored="false" />
-    <file path="/all.sass" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363401369169" ignored="false" />
+    <file path="/all.sass" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363402629751" ignored="false" />
     <file path="/index.html.haml" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363400824430" ignored="false" />
+    <file path="/_startups.sass" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363404112109" ignored="false" />
+    <file path="/startup_layout.html.haml" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363403790853" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,57 +30,55 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="all.sass" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/stylesheets/all.sass">
+      <file leaf-file-name="startup_layout.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/layouts/startup_layout.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="293" column="35" selection-start="5269" selection-end="5318" vertical-scroll-proportion="1.3605015">
+            <state line="36" column="11" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.5869565">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/index.html.haml">
+      <file leaf-file-name="_startups.sass" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/stylesheets/_startups.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="9" selection-start="3482" selection-end="3482" vertical-scroll-proportion="-25.0">
-              <folding>
-                <marker date="1363401540000" expanded="true" signature="889:3544" placeholder=".labs.home-section.container" />
-                <marker date="1363401540000" expanded="true" signature="3303:3309" placeholder=".clear" />
-                <marker date="1363401540000" expanded="true" signature="3303:3311" placeholder="%h2 Labs" />
-                <marker date="1363401540000" expanded="true" signature="3326:3387" placeholder="%h3 Free collaborative environments in Auckland &amp;amp; Dunedin" />
-                <marker date="1363401540000" expanded="true" signature="3405:3727" placeholder="%p Core to how The Distiller operates are The Startup Sprints, which is an evolving framework modelled on successful startup and software development methodologies. The Sprints are applied as a part of The Distiller's free incubator model, in which peer governance and collaboration are the tenets of business development." />
-                <marker date="1363401540000" expanded="true" signature="1722:1757" placeholder="%h3 Get in touch with The Distiller" />
-                <marker date="1363401540000" expanded="true" signature="3303:3463" placeholder=".location" />
-                <marker date="1363401540000" expanded="true" signature="3328:3339" placeholder="%h4 Dunedin" />
-                <marker date="1363401540000" expanded="true" signature="3407:3436" placeholder="%p dunedin@thedistiller.co.nz" />
-                <marker date="1363401540000" expanded="true" signature="3420:3472" placeholder="%address 87 St David St, North Dunedin, Dunedin 9016" />
-                <marker date="1363401540000" expanded="true" signature="3421:3463" placeholder=".map" />
-                <marker date="1363401540000" expanded="true" signature="3448:3463" placeholder="Google Map Here" />
-                <marker date="1363401540000" expanded="true" signature="3463:3544" placeholder=".location" />
-                <marker date="1363401540000" expanded="true" signature="3489:3519" placeholder="%p auckland@thedistiller.co.nz" />
-                <marker date="1363401540000" expanded="true" signature="3507:3559" placeholder="%address 87 St David St, North Dunedin, Dunedin 9016" />
-                <marker date="1363401540000" expanded="true" signature="3508:3544" placeholder=".map" />
-                <marker date="1363401540000" expanded="true" signature="3529:3544" placeholder="Google Map Here" />
-                <marker date="1363401540000" expanded="true" signature="3524:3656" placeholder=".startups.home-section.container" />
-                <marker date="1363401540000" expanded="true" signature="3544:3560" placeholder="%h2 Our Startups" />
-                <marker date="1363401540000" expanded="true" signature="3564:3662" placeholder="%p" />
-                <marker date="1363401540000" expanded="true" signature="3586:3662" placeholder="%a.startup-link.startup-link-authenticaly_uncool" />
-                <marker date="1363401540000" expanded="true" signature="3589:3648" placeholder=".logo-container" />
-                <marker date="1363401540000" expanded="true" signature="3615:3648" placeholder="%img{:href =&gt; 'twitter-icon.png'}" />
-                <marker date="1363401540000" expanded="true" signature="3632:3662" placeholder="Authentically Uncool Marketing" />
-                <marker date="1363401540000" expanded="true" signature="3628:3638" placeholder="%h3 Alumni" />
-                <marker date="1363401540000" expanded="true" signature="3644:3749" placeholder=".network.home-section.container" />
-                <marker date="1363401540000" expanded="true" signature="3646:3657" placeholder="%h2 Network" />
-                <marker date="1363401540000" expanded="true" signature="3647:3700" placeholder="%p Full list of sponsors - not space limited as in footer" />
-              </folding>
+            <state line="45" column="22" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/javascripts/all.js">
+      <file leaf-file-name="_defaults.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/stylesheets/_defaults.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="74" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.sass" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/stylesheets/all.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="17" selection-start="73" selection-end="88" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distiller_extension.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/distiller_extension.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6b.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/startups/6b.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="7" selection-start="11" selection-end="13" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,6 +107,8 @@
         <option value="$PROJECT_DIR$/source/javascripts/all.js" />
         <option value="$PROJECT_DIR$/source/index.html.haml" />
         <option value="$PROJECT_DIR$/source/stylesheets/all.sass" />
+        <option value="$PROJECT_DIR$/source/layouts/startup_layout.html.haml" />
+        <option value="$PROJECT_DIR$/source/stylesheets/_startups.sass" />
       </list>
     </option>
   </component>
@@ -279,7 +209,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
+              <option name="myItemId" value="startups" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,11 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,7 +350,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33511207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33511207" sideWeight="0.9989858" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -509,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/stylesheets/_defaults.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/shared/_nav.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="23" selection-start="54" selection-end="54" vertical-scroll-proportion="-1.875">
@@ -550,50 +469,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/javascripts/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="74" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+        <state line="25" column="74" selection-start="638" selection-end="638" vertical-scroll-proportion="0.2904725">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="9" selection-start="3482" selection-end="3482" vertical-scroll-proportion="-25.0">
+        <state line="40" column="9" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.4784689">
           <folding>
-            <marker date="1363401540000" expanded="true" signature="889:3544" placeholder=".labs.home-section.container" />
-            <marker date="1363401540000" expanded="true" signature="3303:3309" placeholder=".clear" />
-            <marker date="1363401540000" expanded="true" signature="3303:3311" placeholder="%h2 Labs" />
-            <marker date="1363401540000" expanded="true" signature="3326:3387" placeholder="%h3 Free collaborative environments in Auckland &amp;amp; Dunedin" />
-            <marker date="1363401540000" expanded="true" signature="3405:3727" placeholder="%p Core to how The Distiller operates are The Startup Sprints, which is an evolving framework modelled on successful startup and software development methodologies. The Sprints are applied as a part of The Distiller's free incubator model, in which peer governance and collaboration are the tenets of business development." />
-            <marker date="1363401540000" expanded="true" signature="1722:1757" placeholder="%h3 Get in touch with The Distiller" />
-            <marker date="1363401540000" expanded="true" signature="3303:3463" placeholder=".location" />
-            <marker date="1363401540000" expanded="true" signature="3328:3339" placeholder="%h4 Dunedin" />
-            <marker date="1363401540000" expanded="true" signature="3407:3436" placeholder="%p dunedin@thedistiller.co.nz" />
-            <marker date="1363401540000" expanded="true" signature="3420:3472" placeholder="%address 87 St David St, North Dunedin, Dunedin 9016" />
-            <marker date="1363401540000" expanded="true" signature="3421:3463" placeholder=".map" />
-            <marker date="1363401540000" expanded="true" signature="3448:3463" placeholder="Google Map Here" />
-            <marker date="1363401540000" expanded="true" signature="3463:3544" placeholder=".location" />
-            <marker date="1363401540000" expanded="true" signature="3489:3519" placeholder="%p auckland@thedistiller.co.nz" />
-            <marker date="1363401540000" expanded="true" signature="3507:3559" placeholder="%address 87 St David St, North Dunedin, Dunedin 9016" />
-            <marker date="1363401540000" expanded="true" signature="3508:3544" placeholder=".map" />
-            <marker date="1363401540000" expanded="true" signature="3529:3544" placeholder="Google Map Here" />
-            <marker date="1363401540000" expanded="true" signature="3524:3656" placeholder=".startups.home-section.container" />
-            <marker date="1363401540000" expanded="true" signature="3544:3560" placeholder="%h2 Our Startups" />
-            <marker date="1363401540000" expanded="true" signature="3564:3662" placeholder="%p" />
-            <marker date="1363401540000" expanded="true" signature="3586:3662" placeholder="%a.startup-link.startup-link-authenticaly_uncool" />
-            <marker date="1363401540000" expanded="true" signature="3589:3648" placeholder=".logo-container" />
-            <marker date="1363401540000" expanded="true" signature="3615:3648" placeholder="%img{:href =&gt; 'twitter-icon.png'}" />
-            <marker date="1363401540000" expanded="true" signature="3632:3662" placeholder="Authentically Uncool Marketing" />
-            <marker date="1363401540000" expanded="true" signature="3628:3638" placeholder="%h3 Alumni" />
-            <marker date="1363401540000" expanded="true" signature="3644:3749" placeholder=".network.home-section.container" />
-            <marker date="1363401540000" expanded="true" signature="3646:3657" placeholder="%h2 Network" />
-            <marker date="1363401540000" expanded="true" signature="3647:3700" placeholder="%p Full list of sponsors - not space limited as in footer" />
+            <marker date="1363401661000" expanded="true" signature="-1:-1" placeholder=".clear" />
+            <marker date="1363401661000" expanded="true" signature="-1:-1" placeholder="%h2 Labs" />
+            <marker date="1363401661000" expanded="true" signature="-1:-1" placeholder="%h3 Free collaborative environments in Auckland &amp;amp; Dunedin" />
+            <marker date="1363401661000" expanded="true" signature="-1:-1" placeholder="%p Core to how The Distiller operates are The Startup Sprints, which is an evolving framework modelled on successful startup and software development methodologies. The Sprints are applied as a part of The Distiller's free incubator model, in which peer governance and collaboration are the tenets of business development." />
+            <marker date="1363401661000" expanded="true" signature="-1:-1" placeholder="%h3 Alumni" />
+            <marker date="1363401661000" expanded="true" signature="-1:-1" placeholder=".network.home-section.container" />
+            <marker date="1363401661000" expanded="true" signature="-1:-1" placeholder="%h2 Network" />
+            <marker date="1363401661000" expanded="true" signature="-1:-1" placeholder="%p Full list of sponsors - not space limited as in footer" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/startups/6b.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="7" selection-start="11" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/distiller_extension.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylesheets/_defaults.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/stylesheets/all.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="293" column="35" selection-start="5269" selection-end="5318" vertical-scroll-proportion="1.3605015">
+        <state line="4" column="17" selection-start="73" selection-end="88" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylesheets/_startups.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="22" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/layouts/startup_layout.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="11" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.5869565">
           <folding />
         </state>
       </provider>
