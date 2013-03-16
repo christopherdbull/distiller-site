@@ -98,24 +98,50 @@ h5.hero-description
       @include span-columns(4 omega,12)
 
 .main-content
-  margin-top: 30px
+  margin-top: 100px
 
   .labs
     .section-title
       color: $distiller-blue
+    .section-body
+      h3
+        color: $distiller-blue
+
+  .startups
+    .section-title
+      color: $distiller-green
+    .section-logo
+      background-position: 0 -36px
+    .section-body
+
+  .network
+    .section-title
+      color: $distiller-red
+    .section-logo
+      background-position: 0 -72px
+    .section-body
+      h3
+        color: $distiller-red
+
+.startup-logo
+  background-color: rgb(245,245,245)
 
 .home-section
-  width: 660px
-  margin-left: auto
-  margin-right: auto
+  width: 740px
+  margin: 0 auto 240px auto
 
 .section-title
   float: left
+  margin-bottom: 4px
+
+.section-body
+  padding: 0 40px
+  margin-top: 60px
 
 .section-logo
   background: image-url('spr-section-logos.png') 0 0 no-repeat
   width: 30px
-  height: 30px
+  height: 34px
   float: right
 
 .dividing-line
@@ -123,8 +149,14 @@ h5.hero-description
   background-color: rgb(240,240,240)
   height: 1px
   margin-top: 13px
-  margin-bottom: 60px
   clear: both
+
+.contact-dunedin
+  .map
+
+.contact-auckland
+  .map
+  
 
 
 
@@ -145,15 +177,31 @@ h2
   font-size: 30px
   margin: 0px
 
+h3
+  font-family: 'Open Sans', sans-serif
+  font-weight: 100
+  line-height: 20px
+  font-size: 22px
+  margin: 0px
+  margin-bottom: 20px
+
+h4
+  font-family: 'Open Sans', sans-serif
+  font-weight: 400
+  line-height: 20px
+  font-size: 15px
+  margin: 0px
+  margin-bottom: 10px
+  color: rgb(80,80,80)
+
 p
   font-family: 'Open Sans', sans-serif
   font-weight: 100
-  font-size: 15px
-  color: rgb(130,130,130)
-  line-height: 18px
+  font-size: 14px
+  color: rgb(140,140,140)
+  line-height: 25px
   margin-top: 10px
   margin-bottom: 0px
-  padding: 0px 15px
 
 a
   color: rgb(74,166,255)
