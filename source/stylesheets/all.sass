@@ -49,9 +49,10 @@ h4
   width: 990px
   margin: 0 auto
   position: relative
+.header
+  background: rgba(0,0,0,0.4) image-url('bg.jpg') 50% 0 no-repeat
 .navbar
   height: 70px
-  background: rgba(0,0,0,0.4) image-url('bg.jpg') 50% 0 no-repeat
   line-height: 70px
   h1
     line-height: 70px
@@ -143,8 +144,13 @@ h4
     background-position: 100% -100px
   h3
     color:  $distiller-red
-
-.sponsor-logos
+.sponsors
   text-align: center
   background: image-url('footer-divider.png') 50% 0 no-repeat
   height: 200px
+  width: 840px
+  margin: 140px auto 0 auto
+  .logos
+    background: image-url('sponsors.jpg') 50% 0 no-repeat
+    width: 840px
+    height: 354px
