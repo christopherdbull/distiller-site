@@ -27,7 +27,13 @@ $(document).ready(function () {
 
 $(function(){
     var scroll_anchors = []
-    $('#fix-nav').find('a').each(function(){
+    console.log(window.location.pathname);
+    $("a[href^='#']").each(function(){
+        $(this).click(function(){
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top-100
+            }, 400);
+        });
         scroll_anchors.push($(this).attr('href').hash);
         console.log(scroll_anchors);
     });
