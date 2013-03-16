@@ -24,3 +24,19 @@ $(document).ready(function () {
 	// 	var windowWidth = $(window).width();
 	// }
 });
+
+$(function(){
+    var scroll_anchors = []
+    $('#fix-nav').find('a').each(function(){
+        scroll_anchors.push($(this).attr('href').hash);
+        console.log(scroll_anchors);
+    });
+    $(window).scroll(function(){
+        if (($(this).scrollTop() > 640) && (!$('#fix-nav').hasClass('fixed-nav'))) {
+            $('#fix-nav').addClass('fixed-nav');
+        }
+        if (($(this).scrollTop() <= 640) && ($('#fix-nav').hasClass('fixed-nav'))) {
+            $('#fix-nav').removeClass('fixed-nav');
+        }
+    });
+});
