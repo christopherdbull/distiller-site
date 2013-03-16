@@ -2,15 +2,15 @@
 
 $(document).ready(function () {
 
-	var bodyElement = $('html,body');
-
-	var windowHeight = $(window).height();
-	var windowWidth = $(window).width();
-
-	var valuePropOffset = (windowHeight/2)-180;
-	var heroBtnsOffset = (windowHeight-130)-valuePropOffset-180;
-
-	$(".hero-menu").height(windowHeight-70);
+//	var bodyElement = $('html,body');
+//
+//	var windowHeight = $(window).height();
+//	var windowWidth = $(window).width();
+//
+//	var valuePropOffset = (windowHeight/2)-180;
+//	var heroBtnsOffset = (windowHeight-130)-valuePropOffset-180;
+//
+//	$(".hero-menu").height(windowHeight-70);
 
 	// $(".value-prop").css('margin-top', valuePropOffset);
 
