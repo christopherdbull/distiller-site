@@ -54,6 +54,36 @@ ready do
   end
 
   Middleman::Application.set(:startups, hits)
+
+  old_startups = [
+    "77Pieces",
+    "ApeForest",
+    "Bella Builder",
+    "Destination Content",
+    "Down the Road",
+    "EFTPlus",
+    "Forusers",
+    "Graduate Factory",
+    "HPSport",
+    "HomeHub",
+    "Loop Solutions",
+    "Mobilista",
+    "OceanMarkets",
+    "OceanBrowser",
+    "Ohso",
+    "ParkHawk",
+    "PixoPoint",
+    "Potluck Palace",
+    "Room4Rent",
+    "Splashroom Media",
+    "Too Hard Basket",
+    "UnitLink",
+    "Virtuoso Online",
+    "Worknow",
+    "Xplrnz/iVisit",
+  ]
+
+  Middleman::Application.set(:old_startups, old_startups)
 end
 
 
@@ -66,10 +96,14 @@ helpers do
       ret_val[:uri] = h.path
       ret_val[:title] = h.metadata[:page]["title"]
       ret_val[:logo] = h.path[0..-6] + "/logo.png"
-      ret_val[:logo_grey] = h.path[0..-6] + "/logo_grey.png"
+      ret_val[:logo_grey] = h.path[0..-6] + "/logo-grey.png"
       attrs.push ret_val
     end
     return attrs
+  end
+
+  def old_startups
+    Middleman::Application.defaults[:old_startups]
   end
 end
 

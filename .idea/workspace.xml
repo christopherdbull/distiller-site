@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/javascripts/all.js" afterPath="$PROJECT_DIR$/source/javascripts/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/new-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_our_startups.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/bg.jpg" afterPath="$PROJECT_DIR$/source/images/bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.html.haml" afterPath="$PROJECT_DIR$/source/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="distiller.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363388373061" ignored="false" />
     <file path="/all.sass" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363407487003" ignored="false" />
-    <file path="/index.html.haml" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363408036300" ignored="false" />
+    <file path="/index.html.haml" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363409597493" ignored="false" />
     <file path="/_startups.sass" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363404250878" ignored="false" />
     <file path="/startup_layout.html.haml" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363403790853" ignored="false" />
     <file path="/all.js" changelist="9e0f1670-b78e-4cd0-808c-bc7f2e03ceee" time="1363409397534" ignored="false" />
@@ -70,7 +72,7 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="231" selection-end="231" vertical-scroll-proportion="0.13043478">
+            <state line="56" column="41" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.9130435">
               <folding />
             </state>
           </provider>
@@ -547,7 +549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="231" selection-end="231" vertical-scroll-proportion="0.13043478">
+        <state line="56" column="41" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.9130435">
           <folding />
         </state>
       </provider>
