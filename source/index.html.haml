@@ -1,36 +1,37 @@
 ---
-title: Welcome to Middleman
+title: Welcome
 ---
 .hero-menu
   .value-prop.container
     %h1
       The Distiller helps tech startups achieve growth through collaboration, sharing, and support from the community.
       %br/
-      = link_to 'Get involved.', '/contact'
+      = link_to 'Get involved.', '#contact'
   .hero-btns.container#fix-nav
     .fixed-nav-inner
-      %a.hero-labs.hero-btn{:href=>"#"}
+      %a.hero-labs.hero-btn{:href=>"#labs"}
         %h3.hero-title-labs
           Labs
         %h5.hero-description
           Shared creative spaces for startups in both Auckland and Dunedin.
-      %a.hero-startups.hero-btn{:href=>"#"}
+      %a.hero-startups.hero-btn{:href=>"#startups"}
         %h3.hero-title.hero-title-startups
           Startups
         %h5.hero-description
           Our labs have 21 current startups in both cities. Find out more about them here.
-      %a.hero-network.hero-btn{:href=>"#"}
+      %a.hero-network.hero-btn{:href=>"#network"}
         %h3.hero-title-network
           Network
         %h5.hero-description
           Find out about our broad network of entrepreneurs, backers and more.
 .main-content
-  .labs.home-section.container
+  .labs.home-section.container#labs
     .clear
     %h2 Labs
     %h3 Free collaborative environments in Auckland &amp; Dunedin
     %p Core to how The Distiller operates are The Startup Sprints, which is an evolving framework modelled on successful startup and software development methodologies. The Sprints are applied as a part of The Distiller's free incubator model, in which peer governance and collaboration are the tenets of business development.
     %p Startups at The Distiller get access to the Labs, which are collaborative spaces in Dunedin and Auckland. Sprints are held every two weeks which keeps everyone accountable for each other’s success.
+    %a#contact
     %h3 Get in touch with The Distiller
     .location
       %h4 Dunedin
@@ -47,14 +48,16 @@ title: Welcome to Middleman
       %p 87 St David St, North Dunedin, Dunedin 9016
       .map
         Google Map Here
-  .startups.home-section.container
+  .startups.home-section.container#startups
     %h2 Our Startups
     = partial 'our_startups'
     %h3 Alumni
-    .alumni-container
-      - old_startups.each do |s|
-        %p= s
-  .network.home-section.container
+    - old_startups.each_slice((old_startups.length / 3.0).ceil) do |_grp|
+      %ul
+        - _grp.each do |s|
+          %li= s
+    .clear
+  .network.home-section.container#netowrk
     %h2 Network
     %p The Distiller aims to create a vibrant entrepreneurial environment in New Zealand. Our community includes individuals and businesses who interact with The Distiller via meetups, casual meetings, etc. 
     %p The purpose of our network is to:

@@ -26,16 +26,35 @@ $(document).ready(function () {
 });
 
 $(function(){
-    var scroll_anchors = []
-    $('#fix-nav').find('a').each(function(){
-        scroll_anchors.push($(this).attr('href').hash);
-        console.log(scroll_anchors);
+    var hash = window.location.hash;
+    if (hash) {
+        if (hash.indexOf('#') === false) { hash = '#'+hash; }
+        //@todo break out into re-usable function
+        window.scrollTo(0, 0);
+        window.setTimeout(function(){
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top-100
+            }, 600);
+        }, 300);
+
+    }
+    var scroll_anchors = [];
+    $('a[href^="#"], a[href^="'+window.location.pathname+'#"]').each(function(){
+        var uri  = $(this).attr('href');
+        var anchor = uri.substring(uri.indexOf('#'));
+        $(this).click(function(){
+            $('html, body').animate({
+                scrollTop: $(anchor).offset().top-60
+            }, 400);
+        });
+        scroll_anchors.push(anchor);
     });
+    console.log(scroll_anchors);
     $(window).scroll(function(){
-        if (($(this).scrollTop() > 640) && (!$('#fix-nav').hasClass('fixed-nav'))) {
+        if (($(this).scrollTop() > 600) && (!$('#fix-nav').hasClass('fixed-nav'))) {
             $('#fix-nav').addClass('fixed-nav');
         }
-        if (($(this).scrollTop() <= 640) && ($('#fix-nav').hasClass('fixed-nav'))) {
+        if (($(this).scrollTop() <= 600) && ($('#fix-nav').hasClass('fixed-nav'))) {
             $('#fix-nav').removeClass('fixed-nav');
         }
     });

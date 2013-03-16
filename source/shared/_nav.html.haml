@@ -1,9 +1,10 @@
 .navbar
   .container
     .logo
-      %h1 The Distiller
+      %h1
+        %a{:href => '/#top'} The Distiller
     .menu
-      = link_to 'Labs', '/labs'
-      = link_to 'Startups', '/startups'
-      = link_to 'Network', '/network' 
-      = link_to 'Contact', 'contact'
+      %a{:href => '/#labs'} Labs
+      %a{:href => '/#startups'} Startups
+      %a{:href => '/#network'} Network
+      %a{:href => '/#contact'} Contact

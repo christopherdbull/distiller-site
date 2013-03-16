@@ -12,8 +12,9 @@ html
   color: $font-color
   font-size: 14px
   line-height: 18px
-  background: image-url('bg.jpg') 50% 0 no-repeat
   font-weight: 100
+body
+  background: image-url('bg.jpg') 50% 0 no-repeat
 a
   text-decoration: none
   color: $distiller-blue
@@ -38,6 +39,7 @@ h2
   line-height: 50px
   font-size: 30px
 h3
+  clear: both
   margin: 60px 0 30px 0
   color: $font-color
   font-size: 22px
@@ -49,9 +51,10 @@ h4
   width: 990px
   margin: 0 auto
   position: relative
-.header
-  background: rgba(0,0,0,0.4) image-url('bg.jpg') 50% 0 no-repeat
+header
+  background:  image-url('bg.jpg') 50% 0 no-repeat
 .navbar
+  background: rgba(0,0,0,0.4)
   height: 70px
   line-height: 70px
   h1
@@ -77,16 +80,16 @@ h4
     background-color: rgba(255,255,255,0.9)
     text-align: center
     cursor: pointer
-    width: 262px
+    width: 320px
     height: 58px
-    padding: 24px
+    padding: 18px 0 34px 0
     border-radius:  4px
     float: left
-    margin:  0 28px 0 0
+    margin:  0 15px 0 0
     color: $font-color
     @include single-box-shadow(rgba(0,0,0,0.2), 0px, 2px, 3px)
     h3
-      font-size: 21px
+      font-size: 19px
       color: rgb(51,51,51)
       background: image-url("spr-headers.png") 0 0 no-repeat
       line-height: 26px
@@ -140,6 +143,7 @@ h4
   background: white
   padding-bottom: 120px
   .container
+    clear: both
     width:  660px
     padding: 0 40px
   h2
@@ -155,7 +159,7 @@ h4
     color: $distiller-blue
 .startups
   h2
-    margin-top: 240px
+    margin: 240px 0 56px
     color:  $distiller-green
     background-position: 100% -50px
   h3
@@ -177,8 +181,27 @@ h4
     background: image-url('sponsors.jpg') 50% 0 no-repeat
     width: 840px
     height: 354px
-.alumni-container
-  @include clearfix
-  p
-    width: 220px
+#startups
+  width: 680px
+  ul
+    width: 30%
     float: left
+    li
+      padding: 6px 0
+.startups-smashbox
+  float: left
+  width: 150px
+  margin: 0 18px 18px 0
+  text-align: center
+  .starup-image
+    width: 150px
+    height: 150px
+    background: #f5f5f5
+    border-radius: 7px
+    text-align: center
+    img
+      margin:  auto auto
+
+
+
+
