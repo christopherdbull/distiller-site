@@ -49,7 +49,6 @@ $(function(){
         });
         scroll_anchors.push(anchor);
     });
-    console.log(scroll_anchors);
     $(window).scroll(function(){
         if (($(this).scrollTop() > 600) && (!$('#fix-nav').hasClass('fixed-nav'))) {
             $('#fix-nav').addClass('fixed-nav');
