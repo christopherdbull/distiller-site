@@ -93,7 +93,7 @@ helpers do
     attrs = []
     hits.each do |h|
       ret_val = {}
-      ret_val[:uri] = h.path
+      ret_val[:uri] = "/" + h.path
       ret_val[:title] = h.metadata[:page]["title"]
       ret_val[:logo] = h.path[0..-6] + "/logo.png"
       ret_val[:logo_grey] = h.path[0..-6] + "/logo-grey.png"
