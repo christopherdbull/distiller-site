@@ -17,10 +17,10 @@ body
   background: image-url('bg.jpg') 50% 0 no-repeat
 a
   text-decoration: none
-  color: $distiller-blue
+  color: $font-color
 
 a:hover
-  color: $link-hover-color
+  color: $distiller-blue
 .clear
   clear: both
   height: 1px
@@ -73,6 +73,11 @@ header
   .value-prop
     padding: 113px 0 0
     height: 316px
+    a
+      color: $distiller-blue
+      
+    a:hover
+      color: $link-hover-color
   h1
     color: white
     text-shadow: 0 1px 6px #333
@@ -153,6 +158,22 @@ header
   h2
     background: image-url('spr-section-logos.png') 100% 0 no-repeat
 .labs
+  .location
+    float: left
+    width: 100%
+    margin-bottom: 20px
+  .aucklandloc
+    margin-bottom: 260px
+  .loctext
+    float: left
+    h4
+      padding: 0px
+  .map
+    img
+      width: 290px
+      height: 160px
+      float: right
+
   h2
     margin-top: 56px
     color: $distiller-blue
@@ -163,8 +184,13 @@ header
     margin: 240px -40px 56px
     color:  $distiller-green
     background-position: 100% -50px
+  .spacer
+    height: 60px
+    width: 100%
+    float: left
   h3
     color: $distiller-green
+
 .network
   h2
     margin-top: 240px
@@ -218,7 +244,10 @@ ul.bullets
     margin-top: 8px
 
 #all-startups
+  margin-top: 60px
   margin-bottom: 0px
+  color: rgb(128,128,128)
+  font-size: 24px
 
 .list-container
   @include clearfix
@@ -229,10 +258,14 @@ ul.bullets
       padding: 6px 0
   #alumni-startups
     width: 60%
-    float: left
+    float: left 
+    h3
+      color: rgb(160,160,160)
 
   #current-startups
     width: 30%
     float: left
+    h3
+      color: rgb(160,160,160)
 #logotype
   color: white

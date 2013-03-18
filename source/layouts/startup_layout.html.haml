@@ -19,13 +19,14 @@
 
       .databox
         .databox-top
-          = image_tag "#{current_page.path[0..-6]}/logo.png"
+          %a{:href=>current_page.data.home_url, :target => '_blank'}
+            = image_tag "#{current_page.path[0..-6]}/logo.png"
           %table
             %tr
               %td.left Date Started
               %td.right= current_page.data.date_started
-          = link_to "The home page", current_page.data.home_url
         .databox-bottom
+          %p Team members
           %ul
             - current_page.data.founders.each do |f|
               %li= f
