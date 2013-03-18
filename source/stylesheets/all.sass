@@ -6,9 +6,7 @@ $distiller-blue: rgb(74,166,255)
 $distiller-green: rgb(101,167,0)
 $distiller-red: rgb(237,64,64)
 $font-color: rgb(140,140,140)
-$link-color: rgb(140,140,140)
 $link-hover-color: rgb(153, 205, 255)
-// $link-hover-color: rgb(153, 205, 255)
 html
   font-family: 'Open Sans', sans-serif
   color: $font-color
@@ -19,9 +17,10 @@ body
   background: image-url('bg.jpg') 50% 0 no-repeat
 a
   text-decoration: none
-  color: $link-color
-a:hover
   color: $distiller-blue
+
+a:hover
+  color: $link-hover-color
 .clear
   clear: both
   height: 1px
@@ -59,19 +58,16 @@ header
   background: rgba(0,0,0,0.4)
   height: 70px
   line-height: 70px
-  .container
-    .logo
-      h1
-        a
-          line-height: 70px
-          margin: 0
-          color: white
-          float: left
-    .menu
-      float: right
-      a
-        padding: 0 12px
-        color: white
+  h1
+    line-height: 70px
+    margin: 0
+    color: white
+    float: left
+  .menu
+    float: right
+    a
+      padding: 0 12px
+      color: white
 .hero-menu
   height: 570px
   .value-prop
@@ -169,11 +165,6 @@ header
     background-position: 100% -50px
   h3
     color: $distiller-green
-    margin-top: 60px
-.spacer
-  height: 60px
-  float: left
-  width: 100%
 .network
   h2
     margin-top: 240px
@@ -206,11 +197,17 @@ header
       padding: 6px 0
 .startups-smashbox
   float: left
+  width: 150px
+  margin: 0 20px 18px 0
   text-align: center
-  margin: 0 10px 10px 10px
   .starup-image
+    width: 150px
+    height: 150px
     background: #f5f5f5
     border-radius: 7px
+    text-align: center
+    img
+      margin:  auto auto
 
 ul.bullets
   margin-left: 10px
@@ -237,3 +234,5 @@ ul.bullets
   #current-startups
     width: 30%
     float: left
+#logotype
+  color: white

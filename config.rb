@@ -93,7 +93,7 @@ helpers do
     attrs = []
     hits.each do |h|
       ret_val = {}
-      ret_val[:uri] = h.path
+      ret_val[:uri] = "/" + h.path
       ret_val[:title] = h.metadata[:page]["title"]
       ret_val[:logo] = h.path[0..-6] + "/logo.png"
       ret_val[:logo_grey] = h.path[0..-6] + "/logo-grey.png"
@@ -120,10 +120,10 @@ page "/startups/*", :layout => "startup_layout"
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   # activate :cache_buster
