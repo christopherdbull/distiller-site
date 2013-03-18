@@ -40,7 +40,6 @@ title: Welcome
       %p
       %p 87 St David St, North Dunedin, Dunedin 9016
       .map
-        Google Map Here
     .location
       %h4 Auckland
       %p
@@ -51,6 +50,7 @@ title: Welcome
   .startups.home-section.container#startups
     %h2 Our Startups
     = partial 'our_startups'
+    .spacer
     %h3 Alumni
     - old_startups.each_slice((old_startups.length / 3.0).ceil) do |_grp|
       %ul
@@ -67,4 +67,4 @@ title: Welcome
       %li Build strong networks with which to conduct and grow business
       %li Become thought and business leaders through innovation
       %li Contribute our talents and skills to the local community
-    %p The Distiller provides national "hotdesk" opportunities for members of our network. Our "open door" policy allow students, individuals, businesses, and other interested parties to to intermingle with entrepreneurs, and tap resources of our community. 
+    %p The Distiller provides national "hotdesk" opportunities for members of our network. Our open door policy allow students, individuals, businesses, and other interested parties to to intermingle with entrepreneurs, and tap resources of our community. 

@@ -58,4 +58,5 @@ $(function(){
             $('#fix-nav').removeClass('fixed-nav');
         }
     });
+
 });
