@@ -21,6 +21,7 @@
         .databox-top
           %a{:href=>current_page.data.home_url, :target => '_blank'}
             = image_tag "#{current_page.path[0..-6]}/logo.png"
+          = link_to current_page.data.home_url, current_page.data.home_url
           %table
             %tr
               %td.left Date Started
