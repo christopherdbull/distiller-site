@@ -2,7 +2,7 @@
 title: JumpOnBoard.co
 date_started: 2012
 founders:
-  - Daivd Carr
+  - David Carr
   - Mikael Letang
 contact_url: mailto:team@jumponboard.co
 home_url: http://jumponboard.co
