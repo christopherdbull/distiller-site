@@ -3,6 +3,7 @@ title: Top Trainer
 date_started: November 2012
 founders:
   - Alex Asher
+  - Richard Washer
 contact_url: mailto:alex.asher@gmail.com
 home_url: http://www.toptrainer.co.nz
 ---
