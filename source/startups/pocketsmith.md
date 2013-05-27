@@ -2,9 +2,8 @@
 title: PocketSmith
 date_started: 2008
 founders:
-  - Francois Bondiguel
-  - James Wigglesworth
   - Jason Leong
+  - James Wigglesworth
 contact_url: mailto:contact@pocketsmith.com
 home_url: http://www.pocketsmith.com
 ---
