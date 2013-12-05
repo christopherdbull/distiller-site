@@ -12,3 +12,5 @@ workspace.xml
 
 # Ignore Sass' cache
 /.sass-cache
+
+*.swp
