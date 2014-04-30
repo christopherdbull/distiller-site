@@ -91,7 +91,7 @@ end
 
 helpers do
   def startup_list
-    hits = Middleman::Application.defaults[:startups]
+    hits = Middleman::Application.startups
     attrs = []
     hits.each do |h|
       ret_val = {}
@@ -105,7 +105,7 @@ helpers do
   end
 
   def old_startups
-    Middleman::Application.defaults[:old_startups]
+    Middleman::Application.old_startups
   end
 end
 
