@@ -6,6 +6,6 @@ gem "middleman", "~>3.0.12"
 
 gem "middleman-livereload"
 
-gem "heroku"
-
 gem "susy"
+
+gem 'middleman-gh-pages'
