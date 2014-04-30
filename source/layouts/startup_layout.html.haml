@@ -1,0 +1,36 @@
+!!!
+%html
+  %head
+    = partial "shared/head"
+  %body{:class => page_classes}
+    %header
+      = partial 'shared/nav'
+    .container.startup
+      .header
+        %h2= current_page.data.title
+        = link_to "Contact Startup", current_page.data.contact_url
+
+      .databox
+        .databox-top
+          %a{:href=>current_page.data.home_url, :target => '_blank'}
+            = image_tag "#{current_page.path[0..-6]}/logo.png"
+          %table
+            %tr
+              %td.left URL
+              %td.right 
+                =link_to current_page.data.home_url, current_page.data.home_url
+          %table
+            %tr
+              %td.left Date Started
+              %td.right= current_page.data.date_started
+        .databox-bottom
+          %p Team members
+          %ul
+            - current_page.data.founders.each do |f|
+              %li= f
+      .headimg
+        = image_tag "#{current_page.path[0..-6]}/banner.jpg"
+      .content
+        = yield
+      %footer
+        = partial 'shared/startup_footer'

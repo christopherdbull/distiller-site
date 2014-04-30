@@ -1,0 +1,13 @@
+%h2#all-startups All Startups
+.list-container
+  #current-startups
+    %h3 Current
+    %ul
+      - startup_list.each do |s|
+        %li= link_to s[:title], s[:uri]
+  #alumni-startups
+    %h3 Alumni
+    - old_startups.each_slice((old_startups.length / 2.0).ceil) do |_grp|
+      %ul
+        - _grp.each do |s|
+          %li= s

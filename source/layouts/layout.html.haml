@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    = partial 'shared/head'
+  %body{:class => page_classes}
+    %a#top
+    %header
+      = partial 'shared/nav'
+    = yield
+
+  %footer
+    = partial 'shared/footer'
