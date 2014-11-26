@@ -40,3 +40,5 @@ To publish to [GitHub pages](https://pages.github.com), run
 To check the build files first, run
 
     rake build 
+    
+The Distiller page can also be reached from [thedistiller.org](thedistiller.org) or [te-chris.github.io/distiller-site/](http://te-chris.github.io/distiller-site/)
