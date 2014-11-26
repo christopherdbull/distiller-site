@@ -1,20 +1,22 @@
 # New startups
 
-Open a pull request, or send a Distiller admin the following details:
+Open a pull request, or send a Distiller admin the following files:
 
-    source/images/startups/<your-startup-name>/banner.jpg # 507 × 316 px
-    source/images/startups/<your-startup-name>/logo.png # 150 x 150 px logo
-    source/images/startups/<your-startup-name>/logo-grey.png # 150 x 150 px greyscale logo
-    source/startups/<your-startup-name>.md
-    
+    source/startups/<your_startup_name>.md
+    source/images/startups/<your_startup_name>/banner.jpg # 507 × 316 px banner image
+    source/images/startups/<your_startup_name>/logo.png # 150 x 150 px logo
+    source/images/startups/<your_startup_name>/logo-grey.png # 150 x 150 px greyscale logo
+
 A good example for `<your-startup-name>.md` file is [pocketsmith.md](https://raw.githubusercontent.com/te-chris/distiller-site/master/source/startups/pocketsmith.md)
 
 # Old startups
 
 When a startup leaves The Distiller, delete their image folder, and their markdown blurb, and put their name in the `old_startups`
-array in `config.rb`. This will put them into the Alumni section.
+array in `config.rb`. This will put them into the Alumni section of the website.
 
 # Developer setup
+
+Details for developers:
 
 ## Setup
 
