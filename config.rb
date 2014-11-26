@@ -83,6 +83,12 @@ ready do
     "Virtuoso Online",
     "Worknow",
     "Xplrnz/iVisit",
+    "Keen",
+    "6b",
+    "Avid Online",
+    "Duned.in",
+    "NZ Sport Social",
+    "SmartEBusiness"
   ]
 
   Middleman::Application.set(:old_startups, old_startups)

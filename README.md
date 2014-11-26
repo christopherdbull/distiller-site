@@ -1,13 +1,13 @@
 # New startups
 
-Open a pull request, or send a Distiller admin the following files:
+To get onto the Distiller website you need a logo, a greyscale logo, a banner image, and a blurb. If you're opening a pull request then follow this pattern, otherwise send a Distiller admin the files and they can do it for you. File specs are:
 
     source/startups/<your_startup_name>.md
     source/images/startups/<your_startup_name>/banner.jpg # 507 × 316 px banner image
     source/images/startups/<your_startup_name>/logo.png # 150 x 150 px logo
     source/images/startups/<your_startup_name>/logo-grey.png # 150 x 150 px greyscale logo
 
-A good example for `<your-startup-name>.md` file is [pocketsmith.md](https://raw.githubusercontent.com/te-chris/distiller-site/master/source/startups/pocketsmith.md)
+A good example for your startup blurb file is [pocketsmith.md](https://raw.githubusercontent.com/te-chris/distiller-site/master/source/startups/pocketsmith.md)
 
 # Old startups
 
