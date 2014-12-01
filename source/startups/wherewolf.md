@@ -1,5 +1,5 @@
 ---
-title: Where Wolf
+title: Wherewolf
 date_started: February 2012
 founders:
   - Ben Calder

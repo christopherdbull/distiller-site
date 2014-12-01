@@ -1,11 +1,18 @@
 ---
-title: EyeDentify
+title: Eyedentify
 date_started: 2012
 founders:
+  - Tom Batterbury
+  - Phil Thomson
+  - James Choi
   - Edwin Darlow
-contact_url: mailto:enquiries@eyedentify.co.nz
+  - James Corbett 
+  
+contact_url: mailto:support@eyedentify.co.nz
 home_url: http://www.eyedentify.co.nz
 ---
-EyeDentify is an online database of known shoplifters that allows retail communities to share information relating to shoplifting incidents, and allows retail businesses, security and police to upload and receive information relating to these incidents. 
+Eyedentify is a cloud-based platform that helps retailers and Police share information effectively to prevent and reduce retail crime. 
 
-It's like a neighbourhood watch scheme but for retail communities and using modern technology.
+Eyedentify removes the complexity from the crime reporting process, connects the dots on repeat offenders, and transforms information into real-time actionable intelligence that can be used to prevent crime.
+
+Come find us at [http://www.eyedentify.co.nz](http://www.eyedentify.co.nz).
